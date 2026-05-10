@@ -1,4 +1,3 @@
-````md
 # Library Management System
 
 Веб-приложение для управления библиотекой, разработанное в рамках курсовой работы.
@@ -11,6 +10,24 @@
 - просмотр списка бронирований;
 - управление каталогом книг;
 - REST API для взаимодействия клиентской и серверной частей.
+
+## Используемые технологии
+
+### Backend
+- Python
+- Django
+- Django REST Framework
+- PostgreSQL
+
+### Frontend
+- Vue.js
+- Pinia
+- Axios
+
+### Дополнительно
+- Docker
+- Git
+- GitHub
 
 ## Запуск backend
 
@@ -44,10 +61,12 @@ POST   /api/reservations/
 GET    /api/reservations/me
 ```
 
+## GitHub
+
+Репозиторий проекта:  
+https://github.com/AnnaGS05/library-management-system
+
 ## Автор
 
-Головина Анна Сергеевна
+Головина Анна Сергеевна  
 ИКБО-12-23
-
-```
-```
