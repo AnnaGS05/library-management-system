@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Плавные переходы и красивый шрифт */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Убираем синие обводки у кнопок в фокусе (по желанию) */
+.btn:focus-visible,
+.input:focus-visible {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
