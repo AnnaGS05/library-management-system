@@ -61,11 +61,6 @@ POST   /api/reservations/
 GET    /api/reservations/me
 ```
 
-## GitHub
-
-Репозиторий проекта:  
-https://github.com/AnnaGS05/library-management-system
-
 ## Автор
 
 Головина Анна Сергеевна  
